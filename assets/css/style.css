@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body { 
+    background-color: #ffc4dd;
+    text-align: center;
+
+}
+/* introduction */ 
+.introduction { 
+    color: red;
+    font-family: Lobster, sans serif;
+    padding-top: 90px;
+    font-size: large;
+    
+}
+
+/* Game area */ 
+
+.game-container1 { 
+    position: relative;
+    
+  
+}
+.game-container2 { 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    left:10%; 
+    right: 10%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    
+    
+}
+button { 
+    width: 200px;
+    margin: 10px;
+
+    
+}
