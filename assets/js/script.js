@@ -7,11 +7,13 @@ let userChoice
 let computerChoice
 let result
 
+
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => { 
  userChoice= e.target.id 
  yourChoice.innerHTML = userChoice
  generateComputerChoice()
  getResult()
+ keepingScore()
 })
     
 )
@@ -91,7 +93,53 @@ function getResult() {
     else if (computerChoice === "spok" && userChoice === "paper") { 
         result = "You Win!"
     }
+    else if (computerChoice === "lizard" && userChoice === "paper") { 
+        result = "You Lost!"
+    }
+    else if (computerChoice === "lizard" && userChoice === "rock") { 
+        result = "You Win!"
+    }
+    else if (computerChoice === "lizard" && userChoice === "scissors") { 
+        result = "You Win!"
+    }
+    else if (computerChoice === "lizard" && userChoice === "spok") { 
+        result = "You Win!"
+    }
+    
+
 
     
     resultDisplay.innerHTML = result
+}
+
+function keepingScore() { 
+    let yourScore= []
+    let computerScore = []
+
+    for (i=0; i<5; i++){
+        if (result == "You Win!") { 
+            yourScore[i] + 1 
+        }
+        if (result == "You Lost!") { 
+            computerScore[i] +1 
+        }
+
+    }
+    
+    
+
+    console.log(yourScore)
+    console.log(computerScore)
+    
+}
+
+
+function gameEnd() { 
+    if ( yourScore === 5 ){ 
+        alert("You beat the machine!")
+    }
+    else if ( computerScore === 5 ) { 
+        alert("Try again..")
+        return 
+    }
 }
