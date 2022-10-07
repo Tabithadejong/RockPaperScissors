@@ -3,9 +3,10 @@
 body { 
     background-color: #ffc4dd;
     text-align: center;
+    
 
 }
-/* introduction */ 
+/* All styling around the game  */ 
 .introduction { 
     color: red;
     font-family: Lobster, sans serif;
