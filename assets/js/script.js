@@ -14,6 +14,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click
  generateComputerChoice()
  getResult()
  gameControl()
+ endGame()
 })
     
 )
@@ -113,8 +114,8 @@ function getResult() {
 }
 
 function keepingYourScore() { 
-        let oldScore = parseInt(document.getElementById('your-score').innerText); 
-        document.getElementById('your-score').innerText = ++oldScore; 
+    let oldScore = parseInt(document.getElementById('your-score').innerText); 
+    document.getElementById('your-score').innerText = ++oldScore; 
     
     }
 function keepingComputerScore() { 
@@ -133,5 +134,18 @@ function gameControl() {
 
 }
 function endGame() { 
-    
+     let yourScore = document.getElementById("your-score").innerHTML 
+     let computerScore = document.getElementById("computer-score").innerHTML
+
+     if (yourScore == 5 ) { 
+        alert("You beat the machine!")
+        document.getElementById("your-score").innerHTML= 0 
+        document.getElementById("computer-score").innerHTML = 0
+     }
+     if (computerScore == 5) { 
+        alert("Game Over, try again")
+        document.getElementById("computer-score").innerHTML = 0 
+        document.getElementById("your-score").innerHTML= 0 
+     }
+
 }
