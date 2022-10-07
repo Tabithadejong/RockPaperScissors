@@ -28,6 +28,12 @@ function generateComputerChoice() {
     else if (randomNumber === 3) { 
         computerChoice = "paper"
     }
+    else if (randomNumber === 4) {
+        computerChoice = "lizard"
+    } 
+    else if (randomNumber === 5 ) { 
+        computerChoice = "spok"
+    }
 
     computerChoiceDisplay.innerHTML = computerChoice 
 }
@@ -53,7 +59,7 @@ function getResult() {
         result = "You Lost!"
     }
     else if (computerChoice === "paper"&& userChoice === "scissors") { 
-        result = "You Lost!"
+        result = "You Win!"
     }
     else if (computerChoice === "paper"&& userChoice === "lizard") { 
         result = "You Win!"
@@ -71,8 +77,21 @@ function getResult() {
         result = "You Lost!"
     }
     else if (computerChoice === "scissors"&& userChoice === "spok") { 
-        result = "You win!"
+        result = "You Win!"
     }
+    else if (computerChoice === "spok" && userChoice === "lizard") { 
+        result = "You Win!"
+    }
+    else if (computerChoice === "spok" && userChoice === "scissors") { 
+        result = "You Lost!"
+    }
+    else if (computerChoice === "spok" && userChoice === "rock") { 
+        result = "You Lost!"
+    }
+    else if (computerChoice === "spok" && userChoice === "paper") { 
+        result = "You Win!"
+    }
+
     
     resultDisplay.innerHTML = result
 }
