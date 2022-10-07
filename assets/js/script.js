@@ -13,7 +13,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click
  yourChoice.innerHTML = userChoice
  generateComputerChoice()
  getResult()
- keepingScore()
+ gameControl()
 })
     
 )
@@ -70,7 +70,7 @@ function getResult() {
         result = "You Lost!"
     }
     else if (computerChoice === "scissors"&& userChoice === "rock") { 
-        result = "You win!"
+        result = "You Win!"
     }
     else if (computerChoice === "scissors"&& userChoice === "paper") { 
         result = "You Lost!"
@@ -112,34 +112,26 @@ function getResult() {
     resultDisplay.innerHTML = result
 }
 
-function keepingScore() { 
-    let yourScore= []
-    let computerScore = []
-
-    for (i=0; i<5; i++){
-        if (result == "You Win!") { 
-            yourScore[i] + 1 
-        }
-        if (result == "You Lost!") { 
-            computerScore[i] +1 
-        }
-
+function keepingYourScore() { 
+        let oldScore = parseInt(document.getElementById('your-score').innerText); 
+        document.getElementById('your-score').innerText = ++oldScore; 
+    
     }
-    
-    
+function keepingComputerScore() { 
+    let oldScore = parseInt(document.getElementById('computer-score').innerText); 
+    document.getElementById('computer-score').innerText = ++oldScore; 
 
-    console.log(yourScore)
-    console.log(computerScore)
-    
 }
-
-
-function gameEnd() { 
-    if ( yourScore === 5 ){ 
-        alert("You beat the machine!")
+    
+function gameControl() { 
+    if ( result === "You Win!" ){ 
+        keepingYourScore()
     }
-    else if ( computerScore === 5 ) { 
-        alert("Try again..")
-        return 
+    if ( result === "You Lost!" ) { 
+        keepingComputerScore() 
     }
+
+}
+function endGame() { 
+    
 }
