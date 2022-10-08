@@ -118,8 +118,9 @@ function getResult() {
     
     resultDisplay.innerHTML = result
 }
-/* test to put all this in 1 function 
-/* Increments users score 
+
+
+/* Increments users score */ 
 
 function keepingYourScore() { 
     let oldScore = parseInt(document.getElementById('your-score').innerText); 
@@ -127,7 +128,7 @@ function keepingYourScore() {
     
     }
 
-/* Increments computer score 
+/* Increments computer score */ 
 
 function keepingComputerScore() { 
     let oldScore = parseInt(document.getElementById('computer-score').innerText); 
@@ -135,7 +136,7 @@ function keepingComputerScore() {
 
 }
     
-/* Decides when to increment computer score or user score 
+/* Decides when to increment computer score or user score */ 
 
 function gameControl() { 
     if ( result === "You Win!" ){ 
@@ -147,22 +148,22 @@ function gameControl() {
 
 }
 
-/* Ends game when one of the parties win and resets the game section 
+/* Ends game when one of the parties win and resets the game section */ 
 
 function endGame() { 
     let yourScore = document.getElementById("your-score").innerHTML 
     let computerScore = document.getElementById("computer-score").innerHTML
 
      if (yourScore == 5 ) { 
-        alert("You beat the machine!")
+        alert(`You beat the machine! \nWinning move was Your Choice: ${userChoice} , Computer Choice: ${computerChoice}`)
         document.location.reload(true)
         
      }
      if (computerScore == 5) { 
-        alert("Game Over, try again")
+        alert(`Game over, try again.. \nKilling strike was Your Choice: ${userChoice},  Computer Choice: ${computerChoice} `)
         document.location.reload(true)
         
      }
 
 }
-*/ 
+
