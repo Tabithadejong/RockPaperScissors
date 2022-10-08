@@ -31,10 +31,18 @@ Link to page
   - The option to play with multiple contesters would also be a desired future feature. 
 ## Testing 
 ### Validator Testing
-- [x] Javascript - 
-- [x] HTML - Validator W3C
-- [x] CSS 
+- [x] Javascript - [Jshint](https://jshint.com/)
+- [x] CSS - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+- [x] HTML -  [Validator W3C](https://validator.w3.org/)
+- [x] Lighthous - Lighthouse browser extension
+
 ## Deployment 
+- This website was deployed through Github pages. The following steps were taken: 
+  - Browse to settings in the specific repository. 
+  - From the source section drop-down menu, select the Main branche, and then create page.
+  - The link to the page is created then on the account and accesible from all devices 
+  - This it the link : https://tabithadejong.github.io/RockPaperScissors/index.html
+
 
 ## Credits 
 ### Code 
