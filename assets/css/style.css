@@ -2,7 +2,7 @@
 
 body { 
     background-color: #ffc4dd;
-    text-align: center;
+    text-align: center; 
 
 }
 
@@ -11,7 +11,21 @@ body {
 .headlines { 
     font-family: lobster, sans-serif;
     color: red; 
-    font-size: large;
+    font-size: 50px; 
+}
+
+/* Style for smaller text on the home page */ 
+
+.explanation { 
+    color: black; 
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#ours { 
+    color: red; 
+    font-family: lobster;
+    font-size: x-large;
 }
 
 /* styles all the links in the pages */ 
@@ -20,29 +34,43 @@ a:link {
 }
 a:visited { 
     text-decoration: none;
-    color: red;
+    color: inherit;
+
 }
 a:hover { 
     text-decoration: underline;
 }
 
+/*img on main page */ 
 
+#img-holder { 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+/* Game page */ 
+
+/* Link to homepage */ 
+#back { 
+    position: fixed;
+    left:0; 
+}
+
+/* ScoreBoard */ 
 
 .game-keeper { 
     color: red;
     font-family: Lobster, sans serif;
-  
-    font-size: large;
-    
+    font-size: large;   
+    padding-top: 40px;
 }
 
-/* Game area */ 
+/* Game styling */
 
 .game-container1 { 
-    position: relative;
-    
-  
+    position: relative;  
 }
+
 .game-container2 { 
     position: fixed;
     display: flex;
