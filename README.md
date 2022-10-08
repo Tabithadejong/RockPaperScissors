@@ -31,10 +31,9 @@ Link to page
   - The option to play with multiple contesters would also be a desired future feature. 
 ## Testing 
 ### Validator Testing
-- Javascript 
-  - The code did pass the Jshint validator 
-- HTML 
-- CSS 
+- [x] Javascript - 
+- [x] HTML - Validator W3C
+- [x] CSS 
 ## Deployment 
 
 ## Credits 
