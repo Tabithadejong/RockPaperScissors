@@ -11,7 +11,7 @@ body {
 .headlines { 
     font-family: lobster, sans-serif;
     color: red; 
-    font-size: 50px; 
+    font-size: 40px; 
 }
 
 /* Style for smaller text on the home page */ 
@@ -31,6 +31,7 @@ body {
 /* styles all the links in the pages */ 
 a:link { 
     text-decoration: none;  
+    
 }
 a:visited { 
     text-decoration: none;
