@@ -153,12 +153,12 @@ function endGame() {
     let yourScore = document.getElementById("your-score").innerHTML 
     let computerScore = document.getElementById("computer-score").innerHTML
 
-     if (yourScore == 5 ) { 
+     if (yourScore == 6 ) { 
         alert("You beat the machine!")
         document.location.reload(true)
         
      }
-     if (computerScore == 5) { 
+     if (computerScore == 6) { 
         alert("Game Over, try again")
         document.location.reload(true)
         

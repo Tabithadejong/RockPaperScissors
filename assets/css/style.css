@@ -3,11 +3,32 @@
 body { 
     background-color: #ffc4dd;
     text-align: center;
-    
 
 }
-/* All styling around the game  */ 
-.introduction { 
+
+/* Style for all big lines of text to create a "theme" */ 
+
+.headlines { 
+    font-family: lobster, sans-serif;
+    color: red; 
+    font-size: large;
+}
+
+/* styles all the links in the pages */ 
+a:link { 
+    text-decoration: none;  
+}
+a:visited { 
+    text-decoration: none;
+    color: red;
+}
+a:hover { 
+    text-decoration: underline;
+}
+
+
+
+.game-keeper { 
     color: red;
     font-family: Lobster, sans serif;
   
@@ -30,10 +51,8 @@ body {
     width: 80%;
     left:10%; 
     right: 10%;
-    display: flex;
     padding-top: 30px;
-    padding-bottom: 120px;
-    
+    padding-bottom: 120px;   
     
 }
 button { 
