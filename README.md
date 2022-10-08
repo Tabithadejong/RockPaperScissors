@@ -7,7 +7,8 @@ Link to page
 ## Features 
 ### Existing Features
 - Home Page 
-  - Explaination 
+  - Explaination of the Game 
+  Here the user can read a little intro on the game and from what other game it is based of. 
   - Picture of Rules 
   - Links to the Game 
 - Game Room
