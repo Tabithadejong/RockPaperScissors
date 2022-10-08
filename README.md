@@ -18,7 +18,7 @@ Link to page
     3. 
 - Game Room
   - Score board 
-    - This section will keep score between the computer and user. It is important that there is an end to the game. 
+    - This section will keep score between the computer and user. It is important that there is an end to the game so the user will be stimulated to a goal. 
   - The Game 
     - This is the section where the game is pplayed. With buttons the user is able to pick a choice against the automatically generated choice of the computer 
   - The pop-up 
