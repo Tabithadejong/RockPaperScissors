@@ -35,7 +35,7 @@ function generateComputerChoice() {
         computerChoice = "lizard"
     } 
     else if (randomNumber === 5 ) { 
-        computerChoice = "spok"
+        computerChoice = "spock"
     }
 
     computerChoiceDisplay.innerHTML = computerChoice 
@@ -55,7 +55,7 @@ function getResult() {
     else if (computerChoice === "rock"&&  userChoice === "lizard") { 
         result = "You Lost!"
     }
-    else if (computerChoice === "rock"&&  userChoice === "spok") { 
+    else if (computerChoice === "rock"&&  userChoice === "spock") { 
         result = "You Win!"
     }
     else if (computerChoice === "paper"&& userChoice === "rock") { 
@@ -67,31 +67,31 @@ function getResult() {
     else if (computerChoice === "paper"&& userChoice === "lizard") { 
         result = "You Win!"
     }
-    else if (computerChoice === "paper"&& userChoice === "spok") { 
+    else if (computerChoice === "paper"&& userChoice === "spock") { 
         result = "You Lost!"
     }
     else if (computerChoice === "scissors"&& userChoice === "rock") { 
         result = "You Win!"
     }
-    else if (computerChoice === "scissors"&& userChoice === "paper") { 
+    else if (computerChoice === "scissors" && userChoice === "paper") { 
         result = "You Lost!"
     }
-    else if (computerChoice === "scissors"&& userChoice === "lizard") { 
+    else if (computerChoice === "scissors" && userChoice === "lizard") { 
         result = "You Lost!"
     }
-    else if (computerChoice === "scissors"&& userChoice === "spok") { 
+    else if (computerChoice === "scissors" && userChoice === "spock") { 
         result = "You Win!"
     }
-    else if (computerChoice === "spok" && userChoice === "lizard") { 
+    else if (computerChoice === "spock" && userChoice === "lizard") { 
         result = "You Win!"
     }
-    else if (computerChoice === "spok" && userChoice === "scissors") { 
+    else if (computerChoice === "spock" && userChoice === "scissors") { 
         result = "You Lost!"
     }
-    else if (computerChoice === "spok" && userChoice === "rock") { 
+    else if (computerChoice === "spock" && userChoice === "rock") { 
         result = "You Lost!"
     }
-    else if (computerChoice === "spok" && userChoice === "paper") { 
+    else if (computerChoice === "spock" && userChoice === "paper") { 
         result = "You Win!"
     }
     else if (computerChoice === "lizard" && userChoice === "paper") { 
@@ -103,8 +103,8 @@ function getResult() {
     else if (computerChoice === "lizard" && userChoice === "scissors") { 
         result = "You Win!"
     }
-    else if (computerChoice === "lizard" && userChoice === "spok") { 
-        result = "You Win!"
+    else if (computerChoice === "lizard" && userChoice === "spock") { 
+        result = "You Lost!"
     }
     
 
@@ -139,13 +139,13 @@ function endGame() {
 
      if (yourScore == 5 ) { 
         alert("You beat the machine!")
-        document.getElementById("your-score").innerHTML= 0 
-        document.getElementById("computer-score").innerHTML = 0
+        document.location.reload(true)
+        
      }
      if (computerScore == 5) { 
         alert("Game Over, try again")
-        document.getElementById("computer-score").innerHTML = 0 
-        document.getElementById("your-score").innerHTML= 0 
+        document.location.reload(true)
+        
      }
 
 }
