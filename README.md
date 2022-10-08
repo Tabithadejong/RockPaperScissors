@@ -1,6 +1,9 @@
 # Rock, Paper, Scissors, Lizard or Spock 
 This website is for entertainment purposes. The user will have a chance to play a game widely known after its appereance in the tv series Big Bang Theory. Everyone already knows how to play Rock, Paper , Scissors, but due to the demand of increasing complexity of this game, Rock, Paper, Scissors, Lizard or Spock was introduced. The game will be explained on this website and there will be the option for the user to play against the computer. 
 
+
+This website is build to fit all devices. 
+
 ![Overall picture](assets/images/Project2/Collage-p2.jpg)
 [This is the deployed site](https://tabithadejong.github.io/RockPaperScissors/index.html)
 
@@ -39,19 +42,24 @@ This website is for entertainment purposes. The user will have a chance to play 
 ### Validator Testing
 - [x] CSS - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
   - The code passed with no problems 
+  ![CSS](assets/images/Project2/CSS.png)
 - [x] HTML -  [Validator W3C](https://validator.w3.org/)
   - The code passed with 1 warning; <section> Does not have a <h> element. Use <div> instead.
     - As I have used div's in all section I did not alter the code after this warning. 
+   ![HTML](assets/images/Project2/HTML.png)
 - [x] Javascript - [Jshint](https://jshint.com/)
   - The JS code passed with the following metrics; 
   1. There are 8 functions in this file.
   2. Function with the largest signature take 1 arguments, while the median is 0.
   3. Largest function has 23 statements in it, while the median is 5.
   4. The most complex function has a cyclomatic complexity value of 42 while the median is 2.
+  ![JS](assets/images/Project2/JS.png)
 - [x] Lighthous - Lighthouse browser extension
   - The website passed all testing criteria above average. 
+  ![Lighthouse](assets/images/Project2/Lighthouse.png)
 - [x] Peer review 
   - When played by friends the game did function as expected. 
+
 
 ## Bugs 
 ### Fixed Bugs 
