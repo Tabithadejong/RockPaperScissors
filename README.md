@@ -1,2 +1,2 @@
-# RockPaperScissors
+# RockPaperScissorsLizardSpock
 Game
