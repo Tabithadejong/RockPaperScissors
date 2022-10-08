@@ -23,14 +23,14 @@ This website is for entertainment purposes. The user will have a chance to play 
     - This section will keep score between the computer and user. It is important that there is an end to the game so the user will be stimulated to a goal. 
     ![Score Board](assets/images/Project2/Score-board.png)
   - The Game 
-    - This is the section where the game is pplayed. With buttons the user is able to pick a choice against the automatically generated choice of the computer 
+    - This is the section where the game is played. With buttons the user is able to pick a choice against the automatically generated choice of the computer 
     ![The Game](assets/images/Project2/Game-area.png)
   - The pop-up 
     - The alert message will display if one of the 2 competitors has reached a score of 5. It will tell the user what the winning or losing strike was. After clicking on the alert message the page will reload and the game will reset to starting values again. 
     ![Popup](assets/images/Project2/Popup.png)
   - Link Back 
     - Whenever the user wants to leave the game room this link can be clicked. It will take the user back to the home page. Here the user can read the instructions again. 
-    ![Link back](assets/images/Project2/Back.png)
+    ![Link back](assets/images/Project2/Back%20.png)
 ### Features Left to Implement 
 - More Games 
   - In the future it would be great to elaborate this entertainment website. For example there could be added many more games and the option for the user to switch between these games. 
