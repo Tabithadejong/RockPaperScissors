@@ -8,6 +8,7 @@ let userChoice
 let computerChoice
 let result
 
+/* Fires events when buttons are clicked */ 
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => { 
  userChoice= e.target.id 
@@ -19,6 +20,8 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click
 })
     
 )
+/* Make random selection out of option for the computer to play */ 
+
 
 function generateComputerChoice() { 
     const randomNumber = Math.floor(Math.random() * 5) +1  
@@ -41,6 +44,8 @@ function generateComputerChoice() {
 
     computerChoiceDisplay.innerHTML = computerChoice 
 }
+
+/* Decides who wins between computer and user */ 
 
 function getResult() { 
 
@@ -114,17 +119,24 @@ function getResult() {
     resultDisplay.innerHTML = result
 }
 
+/* Increments users score */ 
+
 function keepingYourScore() { 
     let oldScore = parseInt(document.getElementById('your-score').innerText); 
     document.getElementById('your-score').innerText = ++oldScore; 
     
     }
+
+/* Increments computer score */ 
+
 function keepingComputerScore() { 
     let oldScore = parseInt(document.getElementById('computer-score').innerText); 
     document.getElementById('computer-score').innerText = ++oldScore; 
 
 }
     
+/* Decides when to increment computer score or user score */ 
+
 function gameControl() { 
     if ( result === "You Win!" ){ 
         keepingYourScore()
@@ -134,6 +146,9 @@ function gameControl() {
     }
 
 }
+
+/* Ends game when one of the parties win and resets the game section */ 
+
 function endGame() { 
     let yourScore = document.getElementById("your-score").innerHTML 
     let computerScore = document.getElementById("computer-score").innerHTML
