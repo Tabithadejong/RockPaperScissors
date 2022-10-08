@@ -3,6 +3,7 @@ const yourChoice = document.getElementById("your-choice")
 const resultDisplay = document.getElementById("result")
 const possibleChoices = document.querySelectorAll("button")
 
+
 let userChoice 
 let computerChoice
 let result
@@ -134,8 +135,8 @@ function gameControl() {
 
 }
 function endGame() { 
-     let yourScore = document.getElementById("your-score").innerHTML 
-     let computerScore = document.getElementById("computer-score").innerHTML
+    let yourScore = document.getElementById("your-score").innerHTML 
+    let computerScore = document.getElementById("computer-score").innerHTML
 
      if (yourScore == 5 ) { 
         alert("You beat the machine!")
