@@ -35,6 +35,7 @@ Link to page
 - [x] CSS - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 - [x] HTML -  [Validator W3C](https://validator.w3.org/)
 - [x] Lighthous - Lighthouse browser extension
+- [x] Peer review 
 
 ## Deployment 
 - This website was deployed through Github pages. The following steps were taken: 
@@ -45,7 +46,14 @@ Link to page
 
 
 ## Credits 
-### Code 
 ### Content 
+- The rules of the game I have found online through google searches. 
 ### Media 
+- The picture on the home page is found through a search for stock free images on google. 
+### Code 
+- [Code Institute](https://learn.codeinstitute.net/dashboard)
+  - Here I learned most of my knowledge on how to use HTML, CSS and JS. 
+  - The walkthrough project [Love Math](https://code-institute-org.github.io/love-maths/) has helped me understand the fundamentals on how to build a game/project with JS. 
+- Youtube tutorials inspired me how to build the game. [Link to youtube search](https://www.youtube.com/results?search_query=rock+paper+scissors+javascript)
+
 ## Other General Information 
