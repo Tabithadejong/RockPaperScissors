@@ -31,11 +31,30 @@ Link to page
   - The option to play with multiple contesters would also be a desired future feature. 
 ## Testing 
 ### Validator Testing
-- [x] Javascript - [Jshint](https://jshint.com/)
 - [x] CSS - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+  - The code passed with no problems 
 - [x] HTML -  [Validator W3C](https://validator.w3.org/)
+  - The code passed with 1 warning; <section> Does not have a <h> element. Use <div> instead.
+    - As I have used div's in all section I did not alter the code after this warning. 
+- [x] Javascript - [Jshint](https://jshint.com/)
+  - The JS code passed with the following metrics; 
+  1. There are 8 functions in this file.
+  2. Function with the largest signature take 1 arguments, while the median is 0.
+  3. Largest function has 23 statements in it, while the median is 5.
+  4. The most complex function has a cyclomatic complexity value of 42 while the median is 2.
 - [x] Lighthous - Lighthouse browser extension
+  - The website passed all testing criteria above average. 
 - [x] Peer review 
+  - When played by friends the game did function as expected. 
+
+## Bugs 
+### Fixed Bugs 
+- In one of the earlier versions of the game, the computer did not calculate the winner correctly. This was due to some spelling error which have been filtered out afterwards. 
+- When the one of the competitors would have a score of 5 the earlier version of the game would show an alert informing a win or loss but not the last move was not displayed before would have reset itself to starting values. This was fixed through adding templates literals in the alert message. 
+
+### Unfixed Bugs 
+- No bugs have been left unfixed. 
+
 
 ## Deployment 
 - This website was deployed through Github pages. The following steps were taken: 
@@ -55,5 +74,10 @@ Link to page
   - Here I learned most of my knowledge on how to use HTML, CSS and JS. 
   - The walkthrough project [Love Math](https://code-institute-org.github.io/love-maths/) has helped me understand the fundamentals on how to build a game/project with JS. 
 - Youtube tutorials inspired me how to build the game. [Link to youtube search](https://www.youtube.com/results?search_query=rock+paper+scissors+javascript)
+### General Direction 
+- Code Institute has helped form the idea for this game 
+- Throughout the project I have had a couple meetings with a mentor who has given me feedback. 
 
 ## Other General Information 
+
+
