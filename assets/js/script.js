@@ -6,10 +6,10 @@ let userChoice;
 let computerChoice; 
 let result; 
 
-/* Fires events when buttons are clicked */ 
+/* Fires event when buttons are clicked, activate functions to run the game. */ 
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => { 
- userChoice= e.target.id;
+ userChoice = e.target.id;
  yourChoice.innerHTML = userChoice; 
  generateComputerChoice(); 
  getResult(); 
@@ -53,28 +53,28 @@ function getResult() {
     else if (computerChoice === "rock" && userChoice === "paper") { 
         result = "You Win!"; 
     }
-    else if (computerChoice === "rock"&&  userChoice === "scissors") { 
+    else if (computerChoice === "rock" &&  userChoice === "scissors") { 
         result = "You Lost!"; 
     }
-    else if (computerChoice === "rock"&&  userChoice === "lizard") { 
+    else if (computerChoice === "rock" &&  userChoice === "lizard") { 
         result = "You Lost!"; 
     }
-    else if (computerChoice === "rock"&&  userChoice === "spock") { 
+    else if (computerChoice === "rock" &&  userChoice === "spock") { 
         result = "You Win!"; 
     }
-    else if (computerChoice === "paper"&& userChoice === "rock") { 
+    else if (computerChoice === "paper" && userChoice === "rock") { 
         result = "You Lost!"; 
     }
-    else if (computerChoice === "paper"&& userChoice === "scissors") { 
+    else if (computerChoice === "paper" && userChoice === "scissors") { 
         result = "You Win!"; 
     }
-    else if (computerChoice === "paper"&& userChoice === "lizard") { 
+    else if (computerChoice === "paper" && userChoice === "lizard") { 
         result = "You Win!"; 
     }
-    else if (computerChoice === "paper"&& userChoice === "spock") { 
+    else if (computerChoice === "paper" && userChoice === "spock") { 
         result = "You Lost!"; 
     }
-    else if (computerChoice === "scissors"&& userChoice === "rock") { 
+    else if (computerChoice === "scissors" && userChoice === "rock") { 
         result = "You Win!"; 
     }
     else if (computerChoice === "scissors" && userChoice === "paper") { 
@@ -153,12 +153,12 @@ function endGame() {
     let computerScore = document.getElementById("computer-score").innerHTML; 
 
      if (yourScore == 5 ) { 
-        alert(`You beat the machine! \nWinning move was Your Choice: ${userChoice} , Computer Choice: ${computerChoice}`); 
+        alert(`You beat the machine! \nWinning move = Your Choice: ${userChoice} , Computer Choice: ${computerChoice}`); 
         document.location.reload(true); 
         
      }
      if (computerScore == 5) { 
-        alert(`Game over, try again.. \nKilling strike was Your Choice: ${userChoice},  Computer Choice: ${computerChoice} `); 
+        alert(`Game over, try again.. \nKilling strike = Your Choice: ${userChoice},  Computer Choice: ${computerChoice} `); 
         document.location.reload(true); 
         
      }

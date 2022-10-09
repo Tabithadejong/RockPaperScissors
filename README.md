@@ -67,7 +67,7 @@ This website is built to fit all devices.
 - When one of the competitors would have a score of 5, the earlier version of the game would show an alert informing a win or loss then reset itself to begin values. Because of this process the last move was not displayed. This was fixed through adding template literals in the alert message.
  
 ### Unfixed Bugs
-- No bugs have been left unfixed.
+-After deployment at times the user choice would not display but instead show Undefined. When this error was checked it could not be reproduced. There has been extensive testing and the code has been thoroughly examined but nothing was found that could cause this bug. 
  
  
 ## Deployment
@@ -87,12 +87,12 @@ This website is built to fit all devices.
 - [Code Institute](https://learn.codeinstitute.net/dashboard)
   - Here I learned most of my knowledge on how to use HTML, CSS and JS.
   - The walkthrough project [Love Math](https://code-institute-org.github.io/love-maths/) has helped me understand the fundamentals on how to build a game/project with JS.
-- Youtube tutorials inspired me to build the game. [Link to youtube search](https://www.youtube.com/results?search_query=rock+paper+scissors+javascript)
+- Youtube tutorials inspired me to build the game. [Link to youtube search](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=2034s&ab_channel=CodewithAniaKub%C3%B3w)
 ### General Direction
-- Code Institute has helped form the idea for this game
+- Code Institute has helped me form the idea for this game
 - Throughout the project I have had a couple meetings with a mentor who has given me feedback.
  
-## Other General Information
+
  
  
  
