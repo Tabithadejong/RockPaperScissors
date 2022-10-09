@@ -24,7 +24,7 @@ body {
 
 #ours { 
     color: red; 
-    font-family: lobster;
+    font-family: lobster, sans-serif;
     font-size: x-large;
 }
 
